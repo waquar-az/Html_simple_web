@@ -1,0 +1,233 @@
+
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+.contain{
+    height:72px;
+    background-color:rgba(255, 255, 255, 1);
+    /* border:1px solid red; */
+    display: flex; /* Use flexbox to align children horizontally */
+    justify-content: space-between; 
+    align-items: center;
+    list-style: none;
+}
+.box1{
+    
+    margin-left: 72px;
+}
+.box2 {
+    width: 360px;
+    height: 42px;
+ 
+    border-radius: 21px;
+    overflow: hidden;
+    margin-left:50px
+}
+li .box3{
+    width:183px; 
+    height:21px;
+    margin-left:100px;
+}
+
+.search-bar {
+    width: calc(100% - 40px); /* Adjust the width of the search bar as needed */
+    height: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    float: right;
+    box-sizing: border-box;
+    background-color:#EAEDED;
+   
+}
+
+.search-button {
+    width: 40px;
+    height: 100%;
+  
+    color: white;
+    border: none;
+    cursor: pointer;
+    float: left;
+    box-sizing: border-box;
+}
+
+.rectangle3{
+    height:440px;
+    background-image: url('images/nature.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.computer{
+    height:47px;width: 378;font-size: 36px;color: white; padding-top: 268px;padding-left: 200px;
+}
+.engineer{
+    height:23px;width: 327;font-size: 18px;color: white; padding-top: 51px;padding-left: 200px
+}
+.nav-container {   
+    display: flex;  
+    margin-left: 200px;
+    /* border:1px solid red; */
+}
+
+.nav-link {
+    color: #888;
+    text-decoration: none;
+    margin-left: -20px;
+    font-size: 16px;
+    padding-left: 30px;
+
+}
+
+.nav-link.active {
+    color: black; /* Color for the active link */
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    
+}
+.mainpost{
+    display: flex;
+}
+.brand{
+    display: flex;
+}
+/* join group leave group button */
+.join-btn {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+/* NOdal for signup login */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /* background-color: rgba(0,0,0,0.4); Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    /* background-color: #fefefe; */
+    background-color: rgba(255, 255, 255, 0);
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  /* Close Button */
+  .close {
+    color: #FFFFFF;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Style for the link */
+  .signup-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+.signin-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .mobile-button {
+    display: none; /* Hide by default */
+}
+.posts{
+    display: none;
+}
+
+  /* MEDIA QUERY FOR MOBILE RESPONSIVE */
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    .root {
+        max-width: 100%; 
+        margin: 0; 
+    }
+
+    .alpha {
+        max-width: 100%; 
+        margin: 0; 
+    }
+
+    .heading{
+        display: none; 
+    }
+    .nav-container{
+        display: none; 
+    }
+    hr {
+        display: none;
+    }
+    .right_main{
+        display: none;
+    }
+    .joinleave{
+        display: block;
+    }
+    .joinleave1{
+        display: none;
+    }
+  .rectangle3{
+    margin-top: 24px;
+    height:360px;
+  }
+    .left_mainpost{
+        max-width: 100%; 
+        /* margin-left: -200px; */
+        border: none;border-radius: 0;
+    }
+    .left_mainpostok{
+        max-width: 100%; 
+        margin-left: -200px;
+        width:360px;height: 307px;
+        border: none;border-radius: 0;
+    }
+    .left_h3{
+        font-size: 14px;
+        /* font-weight: 600px; */
+    }
+    .brand_left p{
+        font-size: 13px;
+    }
+    .computer{
+        font-size: 17px;padding-left: 16px;
+    }
+    .engineer{
+        font-size: 13px;padding-left: 16px;
+    }
+    .ulpost{
+        margin-left:2px ;
+    }
+    /* mobile purpose */
+    .mobile-button {
+        display: block; /* Display on mobile */
+    }
+    .posts{
+        display: block;
+    }
+    
+}

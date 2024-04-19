@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waquar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="root">
+        <ul class="contain heading">
+            <li class="box1">
+                <a href="#"><img src="images/whole.png" width="162.57" height="24px" atl="logo"></a>
+            </li>          
+            <li class="box2">
+                <button type="submit" class="search-button"><img src="images/baseline-search-24px.png"></button>
+                <input type="text" class="search-bar" placeholder="Search for your favorite groups in ATG">               
+            </li>
+            <li class="box3" style="background-color: none;">
+                <button id="signup-link" class="signup-link" style="border:none;text-decoration-line: none;">
+                    <b style="color:black;">Create account.</b>
+                    <b><span  style="color:blue;"> It’s free!</span></b>
+                    
+               </button>
+              
+                <!--------------- sinup ------------------------------->
+                <!-- write -------------------signup- page-------------- code-->
+                  <div id="myModal" class="modal">
+                 <!-- Modal content -->
+                    <div class="modal-content" style="display: flex; width: 750px;height: 553px;margin-top: 146px;margin-left: 352px;">
+                        <!-- close symbol -->
+                        <div style="width:20px;height: 20px;border-radius: 50%;"><span class="close">&times;</span><div>
+                        
+                        <div class="SignUp" style="width: 736px;height: 513px;margin-top:20px;background-color: rgba(255, 255, 255, 1);">
+                            <div style="width: 736px;height: 50px;background-color:rgba(239, 255, 244, 1);">
+                                <p style="text-align: center;align-items: center;padding-top: 10px;color: 
+                                rgba(0, 138, 69, 1);font-size: 14px;font-weight: 500;">
+                                Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼
+                                </p>
+                            </div>
+                            <!-- signup main div-->
+                            <div style="display: flex;">
+                                <!-- left side div -->
+                                <div class="left_signup" style="width: 360px;height: 420px;margin-top:24px;">
+                                    <h3 style="font-size: 24px;">Create Account</h3>
+                                    <div class='cont' style="width: 360px;height: 240px;">
+                                        <div style="display: flex;">
+                                           <input style='background-color:#D9D9DB;' type="text" class="form-control custum-input" placeholder="First Name">
+                                           <input style='background-color:#D9D9DB;' type="text" class="form-control custum-input" placeholder="Last Name">                                  
+                                        </div>
+                                        <input style='background-color:#D9D9DB;'  type="text" class="form-control custum-input" placeholder="Email">
+                                        <input style='background-color:#D9D9DB;' type="password" class="form-control custum-input" placeholder="Password">
+                                        <input style='background-color:#D9D9DB;' type="password" class="form-control custum-input" placeholder="Confirm Password">
+                                   
+                                        <button style="width: 360px;height: 40px;border-radius: 20px;margin-top: 15px;
+                                        background-color:#2F6CE5;color:white;">Create Account</button>
+                                    </div>
+                                    <button style="width: 360px;height: 40px;margin-top: 15px;
+                                        border:1px solid #D9D9DB;"><a href="#"><img src="images/f_logo_RGB-Blue_1024.png" 
+                                        style="width: 16px;height: 16px;"></a>Sign up with Facebook
+                                    </button>
+                                    <button style="width: 360px;height: 40px;margin-top: 15px;
+                                        border:1px solid #D9D9DB;"><a href="#"><img src="images/search.png" 
+                                        style="width: 16px;height: 16px;"></a>Sign up with Google
+                                    </button>
+                                </div>
+                                <!-- right side div -->
+                                <div class="right_signup">
+                                    <p style="font-size: 13px;font-weight: 600;margin-top: 30px;margin-left: 130px;">
+                                        Already have an account? <span id="signin-link" class="signin-link">Sign In</span>
+                                    </p>
+                                    <img src="images/Group 3 (1).png" style="width:320px;height: 320px;">
+                                    <p style="font-size: 11px;font-weight: 600;margin-top: 30px;margin-left: 30px;color:#888;">
+                                        By signing up, you agree to our Terms & conditions, Privacy policy 
+                                    </p>                                 
+                                </div>
+                            </div>
+                            <!-- signup div end -->
+
+                        </div>
+                    </div>
+
+                  </div>
+                <!-- modal signup end -->
+            </li>
+            <!--------------- sinin /login------------------------------->
+             <!-- write -------------------signIN login- page-------------- code-->
+             <div id="myModalsignin" class="modal">
+                <!-- Modal content -->
+                   <div class="modal-content" style="width: 750px;height: 553px;margin-top: 146px;margin-left: 352px;display: flex;">
+                    <div style="width:20px;height: 20px;border-radius: 50%;"><span class="close">&times;</span></div>
+                       <div class="SignIn" style="width: 736px;height: 513px;margin-top:0.1px;background-color: rgba(255, 255, 255, 1);">
+                           <div style="width: 736px;height: 50px;background-color:rgba(239, 255, 244, 1);">
+                               <p style="text-align: center;align-items: center;padding-top: 10px;color: 
+                               rgba(0, 138, 69, 1);font-size: 14px;font-weight: 500;">
+                               Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼
+                              </p>
+                           </div>
+                           <!-- signIN login main div-->
+                           <div style="display: flex;">
+                               <!-- left side div -->
+                               <div class="left_signin" style="width: 360px;height: 420px;margin-top:24px;">
+                                   <h3 style="font-size: 24px;">Sign In</h3>
+                                   <div class='cont' style="width: 360px;height: 240px;">
+                                       
+                                       <input style='background-color:#D9D9DB;'  type="text" class="form-control custum-input" placeholder="Email">
+                                       <input style='background-color:#D9D9DB;' type="password" class="form-control custum-input" placeholder="Password">
+                                       
+                                  
+                                       <button style="width: 360px;height: 40px;border-radius: 20px;margin-top: 15px;
+                                       background-color:#2F6CE5;color:white;">Create Account</button>
+                                   </div>
+                                   <button style="width: 360px;height: 40px;margin-top: 5px;
+                                       border:1px solid #D9D9DB;"><a href="#"><img src="images/f_logo_RGB-Blue_1024.png" 
+                                       style="width: 16px;height: 16px;"></a>Sign up with Facebook
+                                   </button>
+                                   <button style="width: 360px;height: 40px;margin-top: 10px;
+                                       border:1px solid #D9D9DB;"><a href="#"><img src="images/search.png" 
+                                       style="width: 16px;height: 16px;"></a>Sign up with Google
+                                   </button>
+                                   <div style="text-align: center;align-items: center;margin-top: 5px;">
+                                     <span >Forgot Password?</span>
+                                   </div>
+                               </div>
+                               <!-- right side div -->
+                               <div class="right_signin">
+                                   <p style="font-size: 13px;font-weight: 600;margin-top: 30px;margin-left: 80px;">
+                                    Don't have an account yet? <a href="" id="signup-link" class="signup-link" style="border:none;text-decoration-line: none;">
+                                        Create new for free!</a>
+                                    </p>
+                                   <img src="images/Group 3 (1).png" style="width:320px;height: 320px;">
+                              </div>
+                           </div>
+                           <!-- signin div end -->
+
+                       </div>
+                   </div>
+                 
+             </div>
+              
+                 <!-- ---------signin end -->
+            <li class="box4">
+                <img src="images/baseline-arrow_drop_down-24px.png" style="height: 22px;width: 22px;">
+            </li>
+        </ul>
+
+        <div class="rectangle3">            
+                <h3 class="computer">Computer Engineering<h3>
+                <p class="engineer">142,765 Computer Engineers follow this</p>          
+        </div>
+    </div>
+    <!-- -------------------new section ------------------->
+ <div class="alpha" style="margin: 0;">   
+    <ul class="contain">
+        <ul class="nav-container" style="list-style: none;">
+            <li><a href="#" class="nav-link active">All Posts(32)</a></li>
+            <li><a href="#" class="nav-link">Article</a></li>
+            <li><a href="#" class="nav-link">Event</a></li>
+            <li><a href="#" class="nav-link">Education</a></li>
+            <li> <a href="#" class="nav-link">Job</a></li>
+        </ul>
+       <div class='joinleave' style=" display: flex; margin-right: 280px;">
+            <div class='joinleave1'><button style="width: 133px;height: 36px;border: none;margin-left:50px;">
+                Write a Post<img src="images/baseline-arrow_drop_down-24px.png"
+                style="height: 22px;width: 22px;">
+                </button>
+            </div>
+            <!------------------write a post or ---------join group button/  -->
+            <div class='joinleave1' style="list-style: none;margin-left: 5px;">
+                <button id="adminBtn" onclick="toggleButtons()" 
+                    style="width: 125px;height: 36px; font-size: 15px;color:white;
+                    border-radius:4px;background-color: blue;border: none;">
+                    <img src="images/Vector.png" style="height: 16px;width: 16px;">
+                    Join Group
+                </button>
+                <button id="joinBtn" class="join-btn" onclick="toggleButtons()" 
+                    style="width: 125px;height: 36px; font-size: 15px;color:rgb(255, 255, 255);
+                    border-radius:4px;border: none;background-color: #FFFFFF;margin-top: 546px;margin-left: 1108px;color: #6A6A6B;">
+                    <img src="images/outline-exit_to_app-24px.png" style="height: 22px;width: 22px;">
+                    Leave Group
+                </button>
+            </div>
+        </div>    
+      
+    </ul>
+    <hr style="width: 1040px;border: 1px solid #E0E0E0;margin-left: 200px;text-align: center;margin-top:-10px;flex-wrap: wrap; ">
+    <!-- after hr -->
+    <div class="mainpost" style=" height: 1900px;">
+        <div class="left_mainpost" style="width: 692px;margin-left: 200px;margin-top: 28px;">
+            <!-- for mobile we use the otherwise hide -------------------------->
+            <ul class='mpost' style="display: flex;list-style: none;">
+                <li class="posts" style="margin-top: 1px;"><span class="posts">Posts(368)</span></li>
+                <li><button class="mobile-button" style="padding-left: 20px;border: none;border-radius: 4px;">Filter:All
+                    <span><img src="images/baseline-arrow_drop_down-24px.png" style="height: 22px;width: 22px;"></span></button></li>
+            </ul>
+            <!-- ist -->
+            <div class='left_mainpostok' style="height: 472px;border: 1px solid #E0E0E0; border-radius: 4px;">
+               <img src="images/Rectangle 5.png" style="height: 220px;">
+               <span><h3 style="font-size: 18px;font-weight: 500px;margin-top: 20px;margin-left: 20px;">✍️Article</h3></span>
+               <div class="brand">
+                    <div class="brand_left" style="width: 600px;height: 60px;margin-top: 10px;margin-left: 20px;">
+                        <h3 class="left_h3" style="font-size: 22px;">What if famous brands had regular fonts? Meet RegulaBrands!</h3>
+                    </div>
+
+                    <div class="brand_right" style="margin-top: 10px;">
+                        <button><img src="images/baseline-more_vert-24px.png" style="width: 28px; height: 28px ;border:0.1px solid #888;border-radius: 4px;"></button>
+                    </div>
+                </div>
+
+                <p style="width:652px;height: 25px; color:#5C5C5C;font-size: 19px;margin-left: 20px;margin-top: 8px;">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+            <!-- name pic view share  -->
+                <div class="nameshare" style="display: flex;text-align: center;align-items: center;">
+                    <div class="name" style="margin-left: 20px;margin-top: 32px;">
+                        <img src="images/women.jpg" style="width: 48px;height: 48px;border-radius: 50%;">
+                    </div>
+                    <div style="width: 125px;height: 24px;margin-top: 20px;margin-left:10px;font-size:  18px;">
+                        <span><b>Sarthak Kamra</b></span>
+                    </div>
+                    <div style="margin-top: 20px;padding-left:290px; font-size:  14px;">
+                        <span><img src="images/viewsicon.jpg" style="width: 18px;height: 18px;">1.4k views</span>
+                    </div>
+                    <div style="width:42px;height: 36px;background-color: #5C5C5C;border-radius: 2px; margin-top: 20px;margin-left: 40px;">
+                        <img src="images/baseline-share-24px.png" style="width: 18px;height: 18px;">
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd -->
+            <div class='left_mainpostok' style="height: 472px;border: 1px solid #E0E0E0; border-radius: 4px;margin-top: 15px;">
+                <img src="images/Rectangle 5 (1).png" style="height: 220px;">
+               <span><h3 style="font-size: 18px;font-weight: 500px;margin-top: 20px;margin-left: 20px;">🔬️ Education</h3></span>
+               
+               <div class="brand">
+                    <div class="brand_left" style="width: 600px;height: 60px;margin-top: 10px;margin-left: 20px;">
+                        <h3 class="left_h3"  style="font-size: 22px;">Tax Benefits for Investment under National Pension Scheme launched by Government</h3>
+                    </div>
+
+                    <div class="brand_right" style="margin-top: 10px;">
+                        <button><img src="images/baseline-more_vert-24px.png" style="width: 28px; height: 28px ;border:none;"></button>
+                    </div>
+                </div>
+
+                <p style="width:652px;height: 25px; color:#5C5C5C;font-size: 19px;margin-left: 20px;margin-top: 8px;">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+            <!-- name pic view share  -->
+                <div class="nameshare" style="display: flex;text-align: center;align-items: center;">
+                    <div class="name" style="margin-left: 20px;margin-top: 32px;">
+                        <img src="images/women2.jpg" style="width: 48px;height: 48px;border-radius: 50%;">
+                    </div>
+                    <div style="width: 125px;height: 24px;margin-top: 20px;margin-left:10px;font-size:  18px;">
+                        <span><b>Sarah West</b></span>
+                    </div>
+                    <div style="margin-top: 20px;padding-left:290px; font-size:  14px;">
+                        <span><img src="images/viewsicon.jpg" style="width: 18px;height: 18px;">1.4k views</span>
+                    </div>
+                    <div style="width:42px;height: 36px;background-color: #5C5C5C;border-radius: 2px; margin-top: 20px;margin-left: 40px;">
+                        <img src="images/baseline-share-24px.png" style="width: 18px;height: 18px;">
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd -->
+            <div class='left_mainpostok' style="height: 510px;border: 1px solid #E0E0E0; border-radius: 4px;margin-top: 15px;">
+                <img src="images/Rectangle 5 (3).png" style="height: 220px;">
+                <span><h3 style="font-size: 18px;font-weight: 500px;margin-top: 20px;margin-left: 20px;">🗓️ Meetup</h3></span>
+                
+                <div class="brand">
+                     <div class="brand_left" style="width: 600px;height: 60px;margin-top: 10px;margin-left: 20px;">
+                         <h3 class="left_h3" style="font-size: 22px;">Finance & Investment Elite Social Mixer @Lujiazui</h3>
+                     </div>
+ 
+                     <div class="brand_right" style="margin-top: 10px;">
+                         <button><img src="images/baseline-more_vert-24px.png" style="width: 28px; height: 28px ;border:none;"></button>
+                     </div>
+                 </div>
+                  <ul style="display: flex;list-style: none;">
+                    <li style="margin-left: 20px;align-items: center;">
+                        <img src="images/baseline-today-24px.png" style="width: 20px;height: 20px;"> Fri, 12 Oct, 2018
+                    </li>
+
+                     <li style="margin-left: 60px;">
+                        <img src="images/outline-location_on-24px.png" style="width: 20px;height: 20px;font-size: 15px;">Ahmedabad, India
+                    </li>
+                 </ul>
+                   <button style="width: 652px;height: 38px;margin-left:20px;border: 0.7px solid #A9AEB8;border-radius: 8px;text-align: center;align-items: center;color:#E56135;font-size: 13px;">Visit Website</button>
+                 <!-- </div> -->
+                 <!-- name pic bio view share  -->
+                 <div class="nameshare" style="display: flex;text-align: center;align-items: center;">
+                     <div class="name" style="margin-left: 20px;margin-top: 32px;">
+                         <img src="images/Rectangle 3 (4).png" style="width: 48px;height: 48px;border-radius: 50%;">
+                     </div>
+                     <div style="width: 125px;height: 24px;margin-top: 20px;margin-left:10px;font-size:  18px;">
+                         <span><b>Ronal Jones</b></span>
+                     </div>
+                     <div style="margin-top: 20px;padding-left:290px; font-size:  14px;">
+                         <span><img src="images/viewsicon.jpg" style="width: 18px;height: 18px;">1.4k views</span>
+                     </div>
+                     <div style="width:42px;height: 36px;background-color: #5C5C5C;border-radius: 2px; margin-top: 20px;margin-left: 40px;">
+                         <img src="images/baseline-share-24px.png" style="width: 18px;height: 18px;">
+                     </div>
+                 </div>
+            </div>
+             <!-- 4th -->
+             <div class='left_mainpostok' style="height: 290px;border: 1px solid #E0E0E0; border-radius: 4px;margin-top: 15px;">
+                
+                <span><h3 style="font-size: 18px;font-weight: 500px;margin-top: 20px;margin-left: 20px;">💼️ Job</h3></span>
+                
+                <div class="brand">
+                     <div class="brand_left" style="width: 600px;height: 60px;margin-top: 10px;margin-left: 20px;">
+                         <h3 class="left_h3"  style="font-size: 22px;">Software Developer</h3>
+                     </div>
+ 
+                     <div class="brand_right" style="margin-top: 10px;">
+                         <button><img src="images/baseline-more_vert-24px.png" style="width: 28px; height: 28px ;border:none;"></button>
+                     </div>
+                 </div>
+                  <ul style="display: flex;list-style: none;">
+                    <li style="margin-left: 20px;align-items: center;">
+                        <img src="images/baseline-today-24px.png" style="width: 20;height: 20;"> Innovaccer Analytics Private Ltd.
+                    </li>
+
+                     <li style="margin-left: 60px;">
+                        <img src="images/outline-location_on-24px.png" style="width: 20;height: 20;font-size: 15px;">Noida, India
+                    </li>
+                 </ul>
+                   <button style="width: 652px;height: 38px;margin-left:20px;
+                   border: 0.7px solid #A9AEB8;border-radius: 8px;
+                   text-align: center;align-items: center;color:#02B875;font-size: 13px;">Apply on Timesjobs</button>
+                 <!-- </div> -->
+                 <!-- name pic bio view share  -->
+                 <div class="nameshare" style="display: flex;text-align: center;align-items: center;">
+                     <div class="name" style="margin-left: 20px;margin-top: 32px;">
+                         <img src="images/Rectangle 3 (1).png" style="width: 48px;height: 48px;border-radius: 50%;">
+                     </div>
+                     <div style="width: 125px;height: 24px;margin-top: 20px;margin-left:10px;font-size:  18px;">
+                         <span><b>Joshep Grey</b></span>
+                     </div>
+                     <div style="margin-top: 20px;padding-left:290px; font-size:  14px;">
+                         <span><img src="images/viewsicon.jpg" style="width: 18px;height: 18px;">1.4k views</span>
+                     </div>
+                     <div style="width:42px;height: 36px;background-color: #5C5C5C;border-radius: 2px; margin-top: 20px;margin-left: 40px;">
+                         <img src="images/baseline-share-24px.png" style="width: 18px;height: 18px;">
+                     </div>
+                 </div>
+            </div>
+        </div>
+            <!-- ---------------------rght side----------------------- -->
+        <div class="right_main" style="margin-top: 60px;margin-left: 100px;">
+            <ul style="display: flex;list-style: none;">
+              <li>
+                <img src="images/outline-location_on-24px.png" style="width: 20px;height: 20px;font-size: 15px;">Noida, India
+              </li>
+              <li style="margin-left: 110px;">
+                <img src="images/baseline-edit-24px.png" style="width: 20px;height: 20px;">
+              </li>
+            </ul>
+            <hr style="width: 243px;">
+
+            <ul style="display: flex;list-style: none;">
+                <li>
+                  <img src="images/Vector (1).png" style="width: 16px;height: 16px;">
+                </li>
+                <li style="margin-left: 10px;">
+                    <p style="font-size: 12px;color: #888;">Your location will help us serve better<br>
+                         and extend a personalised experience.</p>
+                </li>
+            </ul>
+<!-- -----------------------------Recommended----------------------------------- -->
+           <div class='grouprecommand' style="width: 240px;height: 252px;margin-top: 40px;">
+                <div style="display: flex; align-items: center;">
+                    <img src="images/twotone-thumb_up-24px.png" style="width: 18px;height: 18px;margin-right: 5px;">
+                    <span style="font-size: 14px;">RECOMMENDED GROUPS</span>
+                </div>  
+                      <!-------------------- group name follow ----------------- -->
+                <ul style="display: flex;list-style: none;margin-top: 20px;align-items: center;text-align: center;">
+                    <li>
+                    <img src="images/Rectangle 6.png" style="width: 36px;height: 36px;border-radius: 50%;  font-size: 15px;">
+                    <li style="margin-left: 8px;">
+                        <span>Leisure</span>
+                    </li>
+                    </li>
+                    <li style="margin-left: auto;">
+                    <button style="width: 60px;height: 24px;border-radius: 14px;">Follow</button>
+                    </li>
+                </ul>
+                <ul style="display: flex;list-style: none;margin-top: 20px;align-items: center;text-align: center;">
+                    <li>
+                    <img src="images/Rectangle 6 (1).png" style="width: 36px;height: 36px;border-radius: 50%;  font-size: 15px;">
+                    <li style="margin-left: 8px;">
+                        <span>Activism</span>
+                    </li>
+                    </li>
+                    <li style="margin-left: auto;">
+                    <button style="width: 60px;height: 24px;border-radius: 14px;">Follow</button>
+                    </li>
+                </ul>
+                <ul style="display: flex;list-style: none;margin-top: 20px;align-items: center;text-align: center;">
+                    <li>
+                    <img src="images/Rectangle 6 (2).png" style="width: 36px;height: 36px;border-radius: 50%;  font-size: 15px;">
+                    <li style="margin-left: 8px;">
+                        <span>MBA</span>
+                    </li>
+                    </li>
+                    <li style="margin-left: auto;">
+                    <button style="width: 60px;height: 24px;border-radius: 14px;">Follow</button>
+                    </li>
+                </ul>
+                <ul style="display: flex;list-style: none; margin-top: 20px;align-items: center;text-align: center;">
+                    <li>
+                    <img src="images/Rectangle 6 (3).png" style="width: 36px;height: 36px;border-radius: 50%;  font-size: 15px;">
+                    <li style="margin-left: 8px;">
+                        <span>Philosophy</span>
+                    </li>
+                    </li>
+                    <li style="margin-left: auto;">
+                    <button style="width: 60px;height: 24px;border-radius: 14px;">Follow</button>
+                    </li>
+                </ul>
+
+                <ul style="display: flex; list-style: none;margin-top: 45px;">
+                    <li style="margin-left: auto;"><a href="#">See More...</a></li>
+                </ul>
+  
+            </div>
+        </div>
+    </div>
+ </div>   
+    <!-- jscode -->
+
+        <script src="index.js"></script>
+    <!-- Bootstrap JS (optional, for Bootstrap features that require JS) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
